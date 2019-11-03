@@ -1,0 +1,6 @@
+<?php
+$config = array(
+    'webhookUrl'      => 'https://hooks.slack.com/services/XXXXXXXX/XXXXXXXXXXXX/XXXXXXXXXX',
+    'webhookUsername' => 'Wigo',
+    'webhookIconUrl'  => 'https://lh3.googleusercontent.com/4ZHoAdcvC2GVoPJuEKlROhynO5Ueu65BFzGQBnIsbELvx1kvlw_tH_Uoc-dIELA3aAxkYNri=w128-h128-e365',
+);

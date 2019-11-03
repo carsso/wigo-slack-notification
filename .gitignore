@@ -1,0 +1,13 @@
+nbproject
+.buildpath
+.settings
+.project
+.idea
+*~
+.DS_Store
+*.DS_Store
+*/.DS_Store
+.directory
+vendor
+config.php
+.htaccess

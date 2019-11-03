@@ -1,0 +1,5 @@
+{
+    "require": {
+        "simonbackx/slack-php-webhook": "^1.0"
+    }
+}
