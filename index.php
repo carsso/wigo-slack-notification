@@ -10,7 +10,7 @@ if(isset($config)) {
     if(isset($_POST['Notification'])) {
         $notification = json_decode($_POST['Notification'], true);
         if(isset($notification['Message'])) {
-            $message->setText($notification['Message']);
+            $message->setText('['.$notification['NewProbe']['Value'].'] '.$notification['Message']."\n".$notification['NewProbe']['Message']."\n".'```'.json_encode($notification['NewProbe']['Detail'], JSON_UNESCAPED_SLASHES|JSON_PRETTY_PRINT).'```');
             $result = $message->send();
             if($result) {
                 echo 'OK (message sent)';
